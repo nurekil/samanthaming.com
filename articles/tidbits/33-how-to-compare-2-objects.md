@@ -75,7 +75,7 @@ _.isEqual(one, two); // true
 
 ### ES6 Way for comparing 2 objects
 
-This is a solution suggested by [@mustafauzun0](https://www.instagram.com/mustafauzun0/). Few things to note though, it won’t work with nested objects and the order of the keys are important. The idea behind this is similar to the stringify way. It coverts the object into a string and compare if the strings are a match. Essentially it's comparing the equality of two strings. That's why the order matters.
+This is a solution suggested by [@mustafauzun0](https://www.instagram.com/mustafauzun0/). Few things to note though, it won’t work with nested objects and the order of the keys are important. The idea behind this is similar to the stringify way. It converts the object into a string and compare if the strings are a match. Essentially it's comparing the equality of two strings. That's why the order matters.
 
 ```javascript
 const k1 = { fruit: '🥝' };
